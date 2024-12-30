@@ -21,6 +21,7 @@ vendor/
 
 # macOS specific files
 .DS_Store
+.idea
 
 # Go specific files
 # Compiled binary for packages and commands
