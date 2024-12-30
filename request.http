@@ -1,0 +1,35 @@
+### GET root
+GET http://localhost:5000/api/todos
+Content-Type: application/json
+
+### POST Todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "body": "Learn Go"
+}
+
+### POST Todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "body": "Learn React"
+}
+
+### POST Todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "body": "Learn Python"
+}
+
+### PATCH Todo
+PATCH http://localhost:5000/api/todos/1
+Content-Type: application/json
+
+### DELETE Todo
+DELETE http://localhost:5000/api/todos/1
+Content-Type: application/json
